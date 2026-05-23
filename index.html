@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksforGeeks | MERN Stack Full Program</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&amp;family=Outfit:wght@300;400;600;700&amp;family=Source+Sans+3:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gfg: {
+                green: "#00895e",
+                ocean: "#3ab284",
+                navy: "#105d95",
+                blue: "#016ccc",
+                lime: "#C3F96E",
+                orange: "#FF9843",
+                yellow: "#FCFF78",
+                periwinkle: "#7D94F9",
+                black: "#0A0E0F",
+                gray: "#E9E9EA",
+                white: "#F5F5F7",
+                lightgreen: "#f1f8f5",
+                lightgreen2: "#d5f6e4",
+                lightblue: "#ecfcff",
+                darkgreen: "#0e201b",
+              },
+            },
+            fontFamily: {
+              sans: ['"Outfit"', "sans-serif"],
+              body: ['"Source Sans 3"', "sans-serif"],
+              alt: ["Nunito", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        background-color: #f5f5f7;
+        color: #0a0e0f;
+      }
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #e9e9ea;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #00895e;
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #265645;
+      }
+      @media print {
+        * {
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+        nav {
+          position: relative !important;
+        }
+        section {
+          page-break-before: always;
+          break-before: page;
+        }
+        header {
+          page-break-before: avoid !important;
+          break-before: auto !important;
+        }
+        .grid > div,
+        .bg-white,
+        .bg-gfg-lightgreen,
+        li,
+        .border-b {
+          page-break-inside: avoid;
+          break-inside: avoid;
+        }
+        .py-20 {
+          padding-top: 3rem !important;
+          padding-bottom: 3rem !important;
+        }
+        ::-webkit-scrollbar {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body class="font-body antialiased">
+    <!-- NAV -->
+    <gfg-navbar></gfg-navbar>
+
+    <!-- HERO -->
+    <gfg-hero></gfg-hero>
+
+    <!-- OVERVIEW -->
+    <gfg-overview></gfg-overview>
+
+    <!-- SKILLS & TECH STACK -->
+    <gfg-skills></gfg-skills>
+
+    <!-- CURRICULUM -->
+    <gfg-curriculum></gfg-curriculum>
+
+    <!-- INDUSTRY EXPERT -->
+    <gfg-instructor></gfg-instructor>
+
+    <!-- PROJECTS -->
+    <gfg-projects></gfg-projects>
+
+    <!-- SUPPORT SYSTEM -->
+    <gfg-support></gfg-support>
+
+    <!-- CAREERS -->
+    <gfg-careers></gfg-careers>
+
+    <!-- STUDENT REVIEWS -->
+    <gfg-reviews></gfg-reviews>
+
+    <!-- FAQ + CONTACT -->
+    <gfg-enroll></gfg-enroll>
+
+    <!-- FOOTER -->
+    <gfg-footer></gfg-footer>
+  
+
+
+    <script src="components/Navbar.js"></script>
+    <script src="components/Hero.js"></script>
+    <script src="components/Overview.js"></script>
+    <script src="components/Skills.js"></script>
+    <script src="components/Curriculum.js"></script>
+    <script src="components/Instructor.js"></script>
+    <script src="components/Projects.js"></script>
+    <script src="components/Support.js"></script>
+    <script src="components/Careers.js"></script>
+    <script src="components/Reviews.js"></script>
+    <script src="components/Enroll.js"></script>
+    <script src="components/Footer.js"></script>
+</body></html>
